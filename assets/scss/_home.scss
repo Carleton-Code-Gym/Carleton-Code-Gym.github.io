@@ -3,6 +3,8 @@
   margin: 0;
   background-color: #1a263d;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   // background-image: url("/images/background.gif");
 }
 
