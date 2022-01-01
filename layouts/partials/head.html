@@ -24,4 +24,16 @@
   {{ $title := print .Site.Title " | " .Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>
+  <meta name="title" content="Carleton Code Gym" />
+  <!-- <meta name="description" content="TBD."> -->
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="TBD."> -->
+  <meta property="og:title" content="Carleton Code Gym" />
+  <!-- <meta property="og:description" content="TBD."> -->
+  <meta property="og:image" content="https://i.imgur.com/eDm1Q4A.png" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- <meta property="twitter:url" content="TBD."> -->
+  <meta property="twitter:title" content="Carleton Code Gym" />
+  <!-- <meta property="twitter:description" content="TBD."> -->
+  <meta property="twitter:image" content="https://i.imgur.com/eDm1Q4A.png" />
 </head>

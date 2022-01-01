@@ -1,0 +1,94 @@
+.home-page {
+  padding: 0;
+  margin: 0;
+  background-color: #1a263d;
+  min-height: 100vh;
+  // background-image: url("/images/background.gif");
+}
+
+.home-page-header {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-header-content {
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    margin: auto;
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.home-page-header-content-buttons {
+  color: white;
+
+  button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    min-width: 7rem;
+    transition: all 0.15s;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #c9e265;
+    color: rgb(0, 0, 0);
+  }
+
+  span {
+    margin-left: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.home-page-events {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 40rem;
+  min-height: 40vh;
+  gap: 2rem;
+}
+
+.event-card {
+  background-color: white;
+  color: black;
+
+  padding: 1rem;
+  width: 10rem;
+  height: 7rem;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+  transition: all 0.15s;
+  overflow: hidden;
+  font-family: "Assistant", sans-serif;
+  border-radius: 0.5rem;
+}

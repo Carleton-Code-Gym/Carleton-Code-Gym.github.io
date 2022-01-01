@@ -5,3 +5,14 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
 }
+
+.footer {
+  background-color: #101929;
+  min-height: 10vh;
+  margin-top: auto;
+  color: white;
+  border-top: 2px solid #c9e265;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
